@@ -127,6 +127,7 @@
     z-index: 2;
 
     }
+
     .eduIcon{
     	font-size:23pt;
     }
@@ -192,8 +193,9 @@
     	}
 
 .utaHover{
-    top: -26px !important;
+  top: 11px !important;
     height: 76px;
+    width: 238px;
 
 }
 .cmrHover{
@@ -252,7 +254,7 @@
 .Hoveruta{
     height: 76px;
     position: absolute;
-    top: -26px;
+    top: 11px;
     width: 238px;
     z-index: 100000;
    
@@ -352,6 +354,16 @@ height: 126px;
     position: relative;
     top: 2px;
 }
+.Hoveruta{
+	cursor: pointer;
+}
+.utaText3{
+top: 24px !important;
+}
+.utaText4{
+
+    line-height: 16.6;
+}
 .itci:focus{
     	outline:none!important;
     }
@@ -375,6 +387,8 @@ a{
 .titleStyling{
 	padding-left: 33px;
 }
+
+
 @media screen and (min-width:1200px) and (max-width:1336px){
 		#Personal_pic{
 	display: none;
@@ -442,6 +456,84 @@ margin-left:-18px;
 }
 .colg ul{
 	padding-top:4px !important;
+}
+
+}
+@-moz-document url-prefix() {
+
+	.utaHover {
+   	height: 76px;
+top: 11px !important;
+width: 238px;
+	}
+
+	#cmrHoverImg{
+		width: 98.5%;
+	}
+	.Hoveruta {
+    height: 76px;
+    position: absolute;
+    top: 12px;
+    width: 238px;
+    z-index: 100000;
+}
+
+	.utaMozText1{
+	top: 22px !important;
+	
+	}
+	.utaMozText2{
+	top: -51px;
+
+	}
+	.detailsPad {
+    padding-left: 4px !important;
+	}
+
+    .contactHeight{
+    	height: 284px;
+    }
+    #cfHoverImg, #itcHoverImg {
+    	width:98.25% !important;
+    }
+    @media screen and (max-width:1199px) and (min-width:992px){
+    	.coltt{
+    		padding-right: 0px;
+			width: 258px;
+			margin-left: -6px;
+    	}
+    	.colpad1{
+    		margin-left: -6px;
+			padding-right: 0px;
+			width: 199px;
+    	}
+    }
+
+     @media screen and (max-width:423px){
+
+     	.colpad{
+		padding-right: 0px !important;
+	}
+	.coltt{
+		padding-right: 0px !important;
+	}
+     }
+
+    @media screen and (max-width:363px){
+	
+	.colco li{
+		font-size: 8.61pt;
+	}
+	.colco1 li{
+		font-size: 10.7pt !important;
+	}
+
+	.colg ul{
+		padding-top:4px !important;
+	}
+	
+
+
 }
 
 }
@@ -537,6 +629,9 @@ function makeNormal(e){
 
 
 });
+function uta(){
+$('#uta').modal('show');
+}
 </script>
 
  </head>
@@ -574,7 +669,7 @@ function makeNormal(e){
  				</div>
  				
  			</div>
- 			<div class="colw colm colhe col-md-4">
+ 			<div class="colw colm colhe contactHeight col-md-4">
  				<div class="row">
  					<span class="pull-right" aria-hidden="true"><img src="http://demo.pixeden.com/pixeden/creative-resume/img/corner-dot.png"/></span>
  				</div>
@@ -601,7 +696,7 @@ function makeNormal(e){
 		    				</ul>
 							
  						</div>
- 						<div class="col-xs-9 colpad">
+ 						<div class="col-xs-9 colpad colpad1">
 							<ul class="colco detailsPad">
 								<li>+1 (682) 248-2168</li>
 								<li><a href="mailto:ranjithma590@gmail.com">ranjithma590@gmail.com</a></li>
@@ -631,13 +726,13 @@ function makeNormal(e){
  					<div class="colt colex logosStyling logosStyling1 ">
  						<ul class="collp">
 								<li>
-									<a href="#uta" data-toggle="modal" class="itci">
+									<div onClick="uta()" data-toggle="modal" class="itci">
 										<img class="origcul"src="utaLogo.png"/>
 										<img id="utaHoverImg"class="itcimage utaHover" src="hover.jpg"/>
-										<p id="utaText1ID"class="ctext utaText1">MASTER IN COMPUTER SCIENCE</p>
-										<p id="utaText2ID"class="ctext utaText2">FALL 2015</p>
+										<p id="utaText1ID"class="ctext utaText1 utaText3 utaMozText1">MASTER IN COMPUTER SCIENCE</p>
+										<p id="utaText2ID"class="ctext utaText2 utaText4 utaMozText2">FALL 2015</p>
 										<div class="Hoveruta"></div>
-									</a>
+									</div>
 								</li>
 								<li>
 									<a href="#cmr" data-toggle="modal" class="itci">
