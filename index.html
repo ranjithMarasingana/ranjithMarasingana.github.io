@@ -193,12 +193,12 @@
 
 .utaHover{
     top: -26px !important;
-    height: 76px !important;
+    height: 76px;
 
 }
 .cmrHover{
 	top: -37px !important;
-    height: 108px !important;
+    height: 108px;
 }
 
 .utaText2{
@@ -352,6 +352,9 @@ height: 126px;
     position: relative;
     top: 2px;
 }
+.itci:focus{
+    	outline:none!important;
+    }
 .panel-title a:hover{
 	text-decoration: none;
 	font-weight: bold;
@@ -452,61 +455,61 @@ $(document).ready(function(){
 	$(".itcimage2").hide();
 	$(".ctext").hide();
 	$(".itext").hide();
-	$(".Hoveruta").mouseover(function(){
+	$(".Hoveruta").mouseenter(function(){
 		
 		$("#utaHoverImg").slideDown("fast");
-		$("#utaText1ID").slideDown("slow");
-		$("#utaText2ID").slideDown("slow");
+		$("#utaText1ID").fadeIn("slow");
+		$("#utaText2ID").fadeIn("slow");
 	});
-	$(".Hovercmr").mouseover(function(){
+	$(".Hovercmr").mouseenter(function(){
 		
 		$("#cmrHoverImg").slideDown("fast");
-		$("#cmrText1ID").slideDown("slow");
-		$("#cmrText2ID").slideDown("slow");
+		$("#cmrText1ID").fadeIn("slow");
+		$("#cmrText2ID").fadeIn("slow");
 	});
 
-	$(".Hovercf").mouseover(function(){
+	$(".Hovercf").mouseenter(function(){
 
 		$("#cfHoverImg").slideDown("fast");
-		$("#cfText1ID").slideDown("slow");
-		$("#cfText2ID").slideDown("slow");
+		$("#cfText1ID").fadeIn("slow");
+		$("#cfText2ID").fadeIn("slow");
 	});
-	$(".Hoveritc").mouseover(function(){
+	$(".Hoveritc").mouseenter(function(){
 
 		$("#itcHoverImg").slideDown("fast");
-		$("#itcText1ID").slideDown("slow");
-		$("#itcText2ID").slideDown("slow");
+		$("#itcText1ID").fadeIn("slow");
+		$("#itcText2ID").fadeIn("slow");
 	});
 
 
-	$(".Hoveruta").mouseout(function(){
+	$(".Hoveruta").mouseleave(function(){
 	
 
 	$("#utaHoverImg").slideUp("slow");
-	$("#utaText1ID").slideUp("fast");
-	$("#utaText2ID").slideUp("fast");
+	$("#utaText1ID").fadeOut("fast");
+	$("#utaText2ID").fadeOut("fast");
 
 	});
-	$(".Hovercmr").mouseout(function(){
+	$(".Hovercmr").mouseleave(function(){
 	
 
 	$("#cmrHoverImg").slideUp("slow");
-	$("#cmrText1ID").slideUp("fast");
-	$("#cmrText2ID").slideUp("fast");
+	$("#cmrText1ID").fadeOut("fast");
+	$("#cmrText2ID").fadeOut("fast");
 
 	});
-	$(".Hovercf").mouseout(function(){
+	$(".Hovercf").mouseleave(function(){
 
 	$("#cfHoverImg").slideUp("slow");
-	$("#cfText1ID").slideUp("fast");
-	$("#cfText2ID").slideUp("fast");
+	$("#cfText1ID").fadeOut("fast");
+	$("#cfText2ID").fadeOut("fast");
 
 });
-	$(".Hoveritc").mouseout(function(){
+	$(".Hoveritc").mouseleave(function(){
 
 	$("#itcHoverImg").slideUp("slow");
-	$("#itcText1ID").slideUp("fast");
-	$("#itcText2ID").slideUp("fast");
+	$("#itcText1ID").fadeOut("fast");
+	$("#itcText2ID").fadeOut("fast");
 
 });
 
@@ -540,7 +543,7 @@ function makeNormal(e){
  <body>
  
  	<div class="container">
- 		<img src="Profile_pic_final.jpg" class= "img-responsive"id="Personal_pic"/>
+ 		<img src="Profile_pic_final.jpg" id="Personal_pic"/>
  		<div class="row Firstrow">
  			<div class="col-md-4 titleStyling">
  				
