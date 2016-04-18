@@ -1,0 +1,543 @@
+body{
+    background-color:#EFF0EE;   
+    }
+.name{
+    font-family: 'Roboto Slab', serif;
+     font-weight: 700;
+    }
+        .Firstrow{
+            margin-top: 30px;
+        }
+        .colw{
+            background-color: white;
+            border-color: #EFF0EE;
+            border-width: 6px ;
+            border-style:solid;
+        }
+
+        .colw .row{
+
+            padding-right: 5px;
+        }
+
+        .colg{
+            font-size: 24px;
+        }
+
+        .colg ul{
+            list-style:     none;
+            padding-left: 0px;
+            padding-top: 3px;
+        }
+        .colg ul li{
+        font-size: 22px;
+    }
+
+        .colt h2{
+        
+            margin-top: 0px;
+            font-family: graduate, sans-serif;
+            font-size: 21pt;
+        }
+
+        .colt ul{
+            padding-left: 0px;
+            
+        }
+        .colm {
+            margin-left:0px;
+        }
+        .colco {
+            list-style:     none;
+            padding-left: 0px;
+            line-height: 2.5;
+
+        }
+        .colex ul {
+            list-style:     none;
+            padding-left: 0px;
+            padding-bottom: 0px;
+            margin-left:36px;
+        }
+
+        .colex li {
+            padding-top: 15px;
+        }
+        .colpad{
+            padding-left: 0px;
+        }
+        .coltt{
+            padding-left: 0px;
+        }
+        .colhe{
+            height: 299px;
+        }
+        .colco1 {
+            line-height: 1.7;
+        }
+        .colco li{
+            font-size: 11.25pt;
+        }
+        .collp{
+            list-style:     none;   
+            padding-left: 0;
+        }
+        .contactIcon{
+            margin-top:3px;
+        }
+        .itci{
+            position:relative;
+            text-decoration: none!important;
+
+    }
+    .itcimage{
+         position: absolute;
+        left: 0px;
+        opacity: .96;
+        width: 100%;
+        height: 350%;
+        z-index: 2;
+        top: -18px;
+    }
+     .itcimage2{
+ position: absolute;
+    left: 0px;
+    opacity: .96;
+    width: 100%;
+    height: 789%;
+    top: -51px;
+    z-index: 2;
+
+    }
+
+    .eduIcon{
+        font-size:23pt;
+    }
+    .expIcon{
+        font-size:  20pt;
+    }
+    .projIcon{
+        font-size: 23pt;
+    }
+    .ctext{
+  position: absolute;
+    top: -54px;
+    left: 20px;
+    color: white;
+    font-size: 15pt;
+    text-decoration: none;
+    z-index: 3;
+    height: 0px;
+    }
+    .itext{
+      position: absolute;
+    top: -96px;
+    left: 12px;
+    color: white;
+    font-size: 15pt;
+    text-decoration: none;
+    z-index: 3;
+    height: 0px;
+    }
+    .origcul{
+        z-index: 1;
+        width:238px;
+
+    }
+    .utaText1{
+        font-family: Quantico, sans-serif;
+        top: -14px!important;
+        font-size: 13pt!important;
+        line-height: 1;
+        width: 202px;
+        text-align: center;
+    }
+ .origitc{
+        z-index: 1;     
+        width:238px;
+    }
+
+.cmrorig{
+  height:   111px;
+  padding-top: 10px;
+}
+.linkedInIcon{
+            font-size: 19pt;
+        }
+        .webIcon{
+              font-size: 22pt;
+    position: relative;
+    top: -8px;
+        }
+            .homeIcon{
+                position: relative;
+    top: -11px;
+        }
+
+.utaHover{
+  top: 11px !important;
+    height: 76px;
+    width: 238px;
+
+}
+.cmrHover{
+    top: -37px !important;
+    height: 108px;
+}
+
+.utaText2{
+    font-family: Quantico, sans-serif;
+    line-height: 11.6;
+    font-size: 11pt !important;
+    text-align: center;
+    width:202px!important;
+}
+
+.itci p{
+    margin: 0 0 0px !important;
+}
+
+.cmrText1{
+    width: 226px!important;
+    left: 7px;
+    top: -16px!important;
+}
+.cfText1{
+    width: 217px;
+    line-height: 4;
+    text-align: center;
+    left: 10px;
+    top: -34px !important;
+}
+.cfText2{
+        line-height: 10;
+}
+.itcText2{
+    line-height: 11 !important;
+        font-size: 11pt !important;
+}
+.itcText1{
+        width: 246px !important;
+    left: -4px !important;
+    line-height: 2 !important;
+    font-size: 13pt !important;
+
+}
+
+.Hovercmr{
+        height: 108px;
+    position: absolute;
+    top: -37px;
+   
+    width: 238px;
+   
+    z-index: 100000;
+}
+.Hoveruta{
+    height: 76px;
+    position: absolute;
+    top: 11px;
+    width: 238px;
+    z-index: 100000;
+   
+     
+}
+.Hovercf{
+            height: 56px;
+    position: absolute;
+    top: -18px;
+    width: 238px;
+    z-index: 100000;
+    
+
+}
+.mainIcon{
+    position: relative;
+    top: -1px !important;
+}
+.Hoveritc{
+height: 126px;
+    position: absolute;
+    top: -51px;
+    width: 238px;
+  
+     z-index: 100000;
+}
+.cmrText2{
+    line-height: 180.5px;
+}
+  
+.panelStyling{
+    padding: 10px 30px;
+    font-family: 'Cabin', sans-serif;
+}
+.projectsStyling{
+    margin:0px -15px 0px;
+}
+.projectsStyling h2{
+    margin-top:10px !important;
+}
+.dotStyle{
+    padding-right: 15px;
+}
+.colge{
+    padding-top:12px;
+    padding-right: 50px;
+}
+.projectsPad{
+    padding-left: 0px;
+}
+.webLink{
+    color:gray;
+}
+.skillsM{
+    margin-bottom: 0px;
+}
+.readMore{
+        margin-top: 5px;
+    margin-bottom: 10px;
+}
+.logosStyling{
+    padding-left: 32px;
+    padding-top: 40px;
+
+}
+.logosStyling1 ul li{
+    padding-top:0px !important;
+}
+.marginSkills{
+    margin-left: -10px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 11pt;
+}
+.projectIcons{
+    margin-top: 11px;
+}
+.aboutMe1{
+    font-family: 'Cabin', sans-serif;
+    font-size: 11.25pt;
+    margin-bottom: 5px;
+}
+.aboutMe2, .colco{
+        font-family: 'Cabin', sans-serif;
+}
+.subTitle{
+    font-family: 'quantico', sans-serif;
+}
+.detailsPad{
+    padding-left: 7px !important;
+}
+.fontWeight{
+    font-weight: bold;
+    text-decoration: none!important;
+}
+.technicalIcon{
+    font-size: 19pt;
+    position: relative;
+    top: 2px;
+}
+.Hoveruta{
+    cursor: pointer;
+}
+.utaText3{
+top: 24px !important;
+}
+.utaText4{
+
+    line-height: 16.6;
+}
+.itci:focus{
+        outline:none!important;
+    }
+.panel-title a:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+.webLink:hover{
+    color:black;
+}
+a{
+    text-decoration: none !important;
+}
+#Personal_pic{
+        position: absolute;
+    width: 100px;
+    left: 0px;
+    top: 58px;
+}
+
+.container{
+    padding: 0 20px;
+}
+.titleStyling{
+    padding-left: 33px;
+}
+
+
+@media screen and (min-width:1200px) and (max-width:1336px){
+        #Personal_pic{
+    display: none;
+}
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+.colg ul li {
+    font-size: 21px !important;
+}
+.colco li {
+    font-size: 10.5pt !important;
+}
+.skillsM1{
+    padding-left: 30px !important;
+}
+.eduHeight{
+    height: 350px;
+}
+.contactHeight{
+    height: 341px;
+}
+
+}
+@media screen and (min-width:992px) and (max-width:1133px){
+    #Personal_pic{
+    display: none;
+}
+}
+
+@media screen and (max-width:947px){
+
+    #Personal_pic{
+    display: none;
+}
+.resumeBtn{
+    margin-bottom: 10px;
+}
+}
+@media screen and (max-width:375px){
+.mainIcon{
+    
+   left:-5px;
+}
+.colco li{
+    font-size: 9pt;
+}
+.colco1 li{
+    font-size: 11pt !important;
+}
+.homeIcon{
+    top:-16px;
+}
+.webIcon{
+    font-size: 17pt;
+    top: -9px;
+}
+.linkedInIcon{
+    font-size: 14pt;
+}
+
+.titleStyling{
+    padding-left: 5px;
+
+}
+
+.colex ul{
+margin-left:-18px;
+}
+.colco1{
+    line-height: 2;
+}
+.colg ul{
+    padding-top:4px !important;
+}
+
+}
+@-moz-document url-prefix() {
+
+    .utaHover {
+    height: 76px;
+top: 11px !important;
+width: 238px;
+    }
+
+    #cmrHoverImg{
+        width: 98.5%;
+    }
+    .Hoveruta {
+    height: 76px;
+    position: absolute;
+    top: 12px;
+    width: 238px;
+    z-index: 100000;
+}
+
+    .utaMozText1{
+    top: 22px !important;
+    
+    }
+    .utaMozText2{
+    top: -51px;
+
+    }
+    .detailsPad {
+    padding-left: 4px !important;
+    }
+
+    .contactHeight{
+        height: 284px;
+    }
+    #cfHoverImg, #itcHoverImg {
+        width:98.4% !important;
+    }
+    @media screen and (max-width:1199px) and (min-width:992px){
+        .coltt{
+            padding-right: 0px;
+            width: 258px;
+            margin-left: -6px;
+        }
+        .contactHeight{
+            height: 349px;
+        }
+        .eduHeight{
+            height: 351px;
+        }
+        #cfHoverImg, #itcHoverImg {
+        width:100% !important;
+    }
+    #cmrHoverImg{
+        width: 100%;
+    }
+        .colpad1{
+            margin-left: -6px;
+            padding-right: 0px;
+            width: 199px;
+        }
+    }
+
+     @media screen and (max-width:423px){
+
+        .colpad{
+        padding-right: 0px !important;
+    }
+    .coltt{
+        padding-right: 0px !important;
+    }
+     }
+
+    @media screen and (max-width:363px){
+    
+    .colco li{
+        font-size: 8.61pt;
+    }
+    .colco1 li{
+        font-size: 10.7pt !important;
+    }
+
+    .colg ul{
+        padding-top:4px !important;
+    }
+    
+
+
+}
+
+}
+
